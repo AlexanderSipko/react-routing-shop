@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-routing-shop/static/css/main.8e823aa7.css",
+    "main.js": "/react-routing-shop/static/js/main.b0847609.js",
+    "index.html": "/react-routing-shop/index.html",
+    "main.8e823aa7.css.map": "/react-routing-shop/static/css/main.8e823aa7.css.map",
+    "main.b0847609.js.map": "/react-routing-shop/static/js/main.b0847609.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e823aa7.css",
+    "static/js/main.b0847609.js"
+  ]
+}
