@@ -28,13 +28,14 @@ nav {
 
 .goBack {
   position: fixed;
-  top: 70px;
+  top: 95px;
   left: 50px;
   z-index: 9;
 }
 
 
 footer {
+  
   position: fixed;
   left: 0;
   right: 0;

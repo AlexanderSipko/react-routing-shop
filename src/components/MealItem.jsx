@@ -6,7 +6,9 @@ function MealItem({idMeal, strMeal, strMealThumb}) {
         <div className="card">
             <div className="card-image">
             <img src={strMealThumb} alt={strMeal}/>
+            <h5 style={{marginLeft:10}}>{strMeal}</h5>
             </div>
+            
             <div className="card-action">
                 <Link
                     to={`/meal/${idMeal}`}
