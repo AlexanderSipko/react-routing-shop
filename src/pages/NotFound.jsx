@@ -1,7 +1,15 @@
+import { useNavigate } from "react-router-dom"
+
 
 function My404Component () {
+
+    const navigate = useNavigate()
     return (
-      <h5>My404Component</h5>
+      <div className="container">
+        <button className="btn blue" onClick={() => navigate(-1)}>Go Back</button>
+        <h5>This Page Not Found</h5>
+      </div>
+      
     )
 }
 
