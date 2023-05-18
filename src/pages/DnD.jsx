@@ -1,7 +1,7 @@
 import {useNavigate} from 'react-router-dom'
 import { useState } from 'react'
 
-function About () {
+function DnD () {
      
     const [cardList, setCardList] = useState([
         {id:1, order:4, text:'Карточка 1'},
@@ -71,7 +71,7 @@ function About () {
                         onDragEnd={(e) => dragEndHandler(e)}
                         onDragOver={(e) => dragOverHandler(e)}
                         onDrop={(e) => dragDropHandler(e, card)}
-                        className='card'
+                        className='card-dnd'
                         draggable={true}
                     >
                         {card.text}
@@ -82,4 +82,4 @@ function About () {
     )
 }
 
-export default About
+export default DnD
