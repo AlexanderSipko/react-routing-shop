@@ -75,3 +75,20 @@ iframe {
   width: 600px;
   height: 350px;
 }
+
+
+.content-card {
+  display: flex;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  margin: 20px;
+  border: 2px solid;
+  border-radius: 15px;
+}

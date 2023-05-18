@@ -10,6 +10,7 @@ import My404Component from './pages/NotFound'
 
 
 function App() {
+
   return (
       <Routes>
           <Route exact path='/' element={<Home />} />
