@@ -15,24 +15,29 @@ function DnD () {
     const dragStartHandler = (e, card) => {
         // console.log('start', card)
         setCurrentCard(card)
+        
     }
 
     const dragLeaveHandler = (e) => { 
         // console.log('Leave', e)
         e.target.style.background = 'white'
+        
     }
 
     const dragEndHandler = (e) => {
+       
         // e.target.style.background = 'blue'
     }
 
     const dragOverHandler = (e) => {
         e.preventDefault()
         e.target.style.background = 'lightgray'
+        
     }
 
     const dragDropHandler = (e, card) => {
         e.preventDefault()
+        
         // console.log('drop', card)
         setCardList(cardList.map(c => {
             if (c.id === card.id) {
